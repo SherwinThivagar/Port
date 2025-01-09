@@ -1,4 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
+// import ColBox from './components/ColBox';
 import {
   About,
   Contact,
@@ -7,37 +8,40 @@ import {
   Navbar,
   Tech,
   Projects,
+//  ColBox
 } from './components';
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0">
+      <div className="relative z-0 max-w-full overflow-x-hidden">
         <div>
+          {/* <Map/> */}
           <Navbar />
           <Hero />
         </div>
 
-        <div className="bg-about bg-cover bg-center bg-no-repeat">
+        <div className="bg-white bg-cover bg-center bg-no-repeat">
           <About />
+          {/* <ColBox/> */}
         </div>
 
-        <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
+        <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10 h-[700px] mt-5">
           <Tech />
         </div>
 
-        <Projects />
+<div>
+   <Projects />
+</div>
+       
 
         <div
-          className="bg-experience bg-cover bg-center bg-no-repeat 
-            rounded-tl-[150px] rounded-br-[150px]">
-          <div
-            className="bg-experienceLight bg-cover bg-center 
-            bg-no-repeat rounded-tl-[150px] rounded-br-[130px]">
+          className="bg-white flex justify-center">
+          <div>
             <Experience />
           </div>
         </div>
-        <div className="relative z-0">
+        <div className="relative z-0 bg-black">
           <Contact />
         </div>
       </div>

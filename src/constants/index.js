@@ -27,7 +27,17 @@ import {
   dcc,
   kelhel,
   microverse,
+
 } from '../assets';
+
+import myFreelance from "../assets/company/freelancer.png"
+
+
+import myPic from "../assets/company/mypic.png";
+
+import myOlic from "../assets/projects/olic.png";
+
+import { textVariant } from '../utils/motion';
 
 export const navLinks = [
   {
@@ -46,27 +56,30 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
-    icon: frontend,
+    title: 'Databases',
+    icon: frontend, 
+    
   },
   {
-    title: 'Backend Developer',
+    title: 'Frontend',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'Backend',
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: 'Restful APIs',
     icon: prototyping,
   },
+
+  
 ];
 
 const technologies = [
   {
     name: 'HTML 5',
-    icon: html,
+    icon: html, 
   },
   {
     name: 'CSS 3',
@@ -122,65 +135,69 @@ const technologies = [
   },
 ];
 
+
+
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Web App Developer',
+    company_name: 'Freelance',
+    icon: myFreelance,
+    iconBg: '#333333',
+    date: 'Jun 2024 - till date',
+  },
+  {
+    title: 'Learning Program Designer',
+    company_name: 'Frankfurt School of Finance and Management',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Nov 2021 - Oct 2023',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Consultant – Safeguards Training E-Learning',
+    company_name: 'International Atomic Energy Agency',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Feb 2021 - Sept 2021',
+    dateStyle: { margin: '10px 0' }, // add your margin here
   },
+    
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'E-learning Designer',
+    company_name: 'Freelance',
+    icon: myPic,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Aug 2020 - Jan 2021',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Business Consultant',
+    company_name: 'IMC AG',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Jan 2021 - Jul 2020',
   },
+  { title: 'E-learning Developer',
+    company_name: 'Robert Bosch',
+    icon: kelhel,
+    iconBg: '##0891b2',
+    date: 'Sep 2018 - Feb 2019',
+    
+  }
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    name: 'Olic',
+    description: 'A small online shop built with React listing shopping items according to gender categories with a checkout route using stripe.',
+    image: myOlic,
+    repo: 'https://github.com/adehogun/olic.git',
+    demo: 'https://myportfolio-1-cn9f.onrender.com/.',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'BreatitDown',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A project management tool designed as a web application, optimized for responsiveness on both tablets and desktops. It enables teams to collaborate effectively and streamline their production processes. The application emphasizes an appealing design to offer a unique user experience.',
     tags: [
       {
         name: 'react',
@@ -196,76 +213,11 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/codeUWE/breakItDown.git',
+    demo: 'https://breakitdown.onrender.com/',
   },
-  {
-    id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  },
+  
+  
 ];
 
 export { services, technologies, experiences, projects };
