@@ -102,7 +102,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'resume link', //paste the link to your resume here
+                  'https://black-kelila-29.tiiny.site/', //paste the link to your resume here
                   '_blank'
                 )
               }
