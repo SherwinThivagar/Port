@@ -39,7 +39,8 @@ import postgresql from './tech/skill/Word.png';
 import rubyrails from './tech/skill/Dragonfly.png';
 
 import coverhunt from './company/Mech.jpg';
-import dcc from './company/dcc.png';
+import dcc from './company/pumo.png';
+import enginerio from './company/enginerio.png';
 import kelhel from './company/Wayland.jpg';
 import microverse from './company/CTS.png';
 
@@ -94,6 +95,7 @@ export {
   space,
   coverhunt,
   dcc,
+  enginerio,
   kelhel,
   microverse,
 };

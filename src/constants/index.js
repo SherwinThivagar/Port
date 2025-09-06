@@ -25,6 +25,7 @@ import {
   space,
   coverhunt,
   dcc,
+  enginerio,
   kelhel,
   microverse,
 } from '../assets';
@@ -125,7 +126,7 @@ const technologies = [
 const experiences = [
   {
     title: 'Product Design Intern',
-    company_name: 'Mechathon Engineering Pvt. Ltd.',
+    company_name: 'Mechathon Engineering Pvt Ltd',
     icon: coverhunt,
     iconBg: '#333333',
     date: 'Aug 2021 - Sep 2021',
@@ -146,7 +147,7 @@ const experiences = [
   },
   {
     title: 'Design Engineer',
-    company_name: 'PUMO TECHNOVATION INDIA PVT. LTD.',
+    company_name: 'PUMO TECHNOVATION INDIA PVT LTD',
     icon: dcc,
     iconBg: '#333333',
     date: 'Oct 2023 - Sep 2025',
@@ -154,7 +155,7 @@ const experiences = [
   {
     title: 'Design Engineer',
     company_name: 'Enginerio Technology Solutions LLP',
-    icon: dcc,
+    icon: enginerio,
     iconBg: '#333333',
     date: 'Sep 2025 - Present',
   },
