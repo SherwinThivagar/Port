@@ -42,12 +42,12 @@ const Hero = () => {
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                Shaquille
+                Sherwin Thivagar
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
-              consectetur adipisicing elit deleniti, voluptas.
+              Mechanical Designer. <br className="sm:block hidden" />
+              Solidworks Champion. CATIA Champion.
             </p>
           </div>
           <div

@@ -37,12 +37,11 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        Mechanical Design Engineer recently graduated with a Master&apos;s in Digital Design and Manufacture at the University of Edinburgh, with a focus on Mechanical Design. I hold a Bachelor&apos;s in Mechanical Engineering from St. Joseph&apos;s College of Engineering, Chennai. <br className="sm:block hidden" />
+        <br className="sm:block hidden" />
+        I have experience working with CAD software such as Solidworks, CATIA, AutoCAD, and Fusion 360, along with simulation tools like Abaqus, StarCCM+, and MATLAB. My recent project involved the characterization of Titanium Alloy components manufactured using Electron Beam Melting (EBM) with NeuBeam Technology in collaboration with Wayland Additive Limited. <br className="sm:block hidden" />
+        <br className="sm:block hidden" />
+        I am passionate about additive manufacturing, process optimization, and innovative design solutions. I am actively applying for roles such as AM Process Engineer, Prototype Engineer, and Design Engineer to expand my expertise in advanced manufacturing technologies further.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
