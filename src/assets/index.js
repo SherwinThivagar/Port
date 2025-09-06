@@ -8,10 +8,10 @@ import logotext from './logo/Logo-Text-v5.png';
 
 import shaq from './personal/sher-bw.png';
 
-import backend from './icons/backend.png';
-import ux from './icons/ux.png';
-import frontend from './icons/frontend.png';
-import prototyping from './icons/prototyping.png';
+import backend from './icons/new/Drafting.png';
+import ux from './icons/new/Prototyping.png';
+import frontend from './icons/new/Design.png';
+import prototyping from './icons/new/RE.png';
 import github from './icons/github.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
@@ -23,31 +23,31 @@ import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 
-import css from './tech/css.png';
-import docker from './tech/docker.png';
-import figma from './tech/figma.png';
-import git from './tech/git.png';
-import html from './tech/html.png';
-import javascript from './tech/javascript.png';
-import nodejs from './tech/nodejs.png';
-import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
-import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
-import graphql from './tech/graphql.png';
-import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png';
+import css from './tech/skill/F360.png';
+import docker from './tech/skill/Teams.png';
+import figma from './tech/skill/Report.png';
+import git from './tech/skill/Powerpoint.png';
+import html from './tech/skill/SW.png';
+import javascript from './tech/skill/ACAD.jpg';
+import nodejs from './tech/skill/Star-CCM.jpg';
+import reactjs from './tech/skill/Catia.png';
+import redux from './tech/skill/Creo.jpg';
+import tailwind from './tech/skill/abaqus.png';
+import typescript from './tech/skill/Inventor.png';
+import graphql from './tech/skill/Excel.png';
+import postgresql from './tech/skill/Word.png';
+import rubyrails from './tech/skill/Dragonfly.png';
 
-import coverhunt from './company/coverhunt.png';
+import coverhunt from './company/Mech.jpg';
 import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import kelhel from './company/Wayland.jpg';
+import microverse from './company/CTS.png';
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
+import komikult from './project/PG.png';
+import leaderboard from './project/UG.png';
+import math from './project/Screw.png';
+import movie from './project/Train.png';
+import nyeusi from './project/Drone.png';
 import space from './projects/space-hub.png';
 
 export {

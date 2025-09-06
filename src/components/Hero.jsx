@@ -47,7 +47,8 @@ const Hero = () => {
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
               Mechanical Designer. <br className="sm:block hidden" />
-              Solidworks Champion. CATIA Champion.
+              Solidworks Champion. <br className="sm:block hidden" />
+              CATIA Champion.
             </p>
           </div>
           <div
