@@ -39,7 +39,7 @@ import postgresql from './tech/skill/Word.png';
 import rubyrails from './tech/skill/Dragonfly.png';
 
 import coverhunt from './company/Mech.jpg';
-import dcc from './company/pumo.png';
+import dcc from './company/Quantum.png';
 import enginerio from './company/enginerio.png';
 import kelhel from './company/Wayland.jpg';
 import microverse from './company/CTS.png';

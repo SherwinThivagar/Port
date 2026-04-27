@@ -147,7 +147,7 @@ const experiences = [
   },
   {
     title: 'Design Engineer',
-    company_name: 'PUMO TECHNOVATION INDIA PVT LTD',
+    company_name: 'Quantum Craft Innovation',
     icon: dcc,
     iconBg: '#333333',
     date: 'Oct 2023 - Sep 2025',
