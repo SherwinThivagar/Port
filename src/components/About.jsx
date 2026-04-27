@@ -37,11 +37,11 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Mechanical Design Engineer recently graduated with a Master&apos;s in Digital Design and Manufacture at the University of Edinburgh, with a focus on Mechanical Design. I hold a Bachelor&apos;s in Mechanical Engineering from St. Joseph&apos;s College of Engineering, Chennai. <br className="sm:block hidden" />
+        Mechanical Design Engineer with a Master&apos;s degree in Digital Design and Manufacture (Mechanical Design focus) from the University of Edinburgh, UK, and a Bachelor&apos;s degree in Mechanical Engineering from St. Joseph&apos;s College of Engineering, Chennai. <br className="sm:block hidden" />
         <br className="sm:block hidden" />
-        I have experience working with CAD software such as Solidworks, CATIA, AutoCAD, and Fusion 360, along with simulation tools like Abaqus, StarCCM+, and MATLAB. My recent project involved the characterization of Titanium Alloy components manufactured using Electron Beam Melting (EBM) with NeuBeam Technology in collaboration with Wayland Additive Limited. <br className="sm:block hidden" />
+        I bring 3 years of industry experience working with CAD tools including SolidWorks, CATIA, Autodesk Inventor, AutoCAD, and Fusion 360, along with simulation software such as Abaqus, STAR-CCM+, and MATLAB. My master&apos;s research focused on the characterization of titanium alloy components produced through Electron Beam Melting (EBM) using NeuBeam technology, in collaboration with Wayland Additive. <br className="sm:block hidden" />
         <br className="sm:block hidden" />
-        I am passionate about additive manufacturing, process optimization, and innovative design solutions. I am actively applying for roles such as AM Process Engineer, Prototype Engineer, and Design Engineer to expand my expertise in advanced manufacturing technologies further.
+        My interests lie in design optimization, additive manufacturing, and developing innovative engineering solutions. I am currently seeking opportunities to further apply and expand my expertise in mechanical design and advanced manufacturing.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
